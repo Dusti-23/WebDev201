@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScratchPage</title>
+    <link rel="mystyles" href="MyStyles.css">
+    <link rel="penguin" href="penguin.js"
+<head> 
+    <style>
+                body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background color */
+            color: #333; /* Dark text */
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcc00; /* Yellow background for header */
+            color: #000; /* Black text */
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333; /* Dark gray background */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-flex; /* Horizontal navigation */
+            gap: 15px; /* Space between links */
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white; /* White text */
+            padding: 10px 15px;
+            border-radius: 5px; /* Rounded edges */
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background-color: #007BFF; /* Blue hover effect */
+        }
+
+        /* Sections */
+        .section {
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        /* Fun Facts */
+        #facts ol {
+            text-align: left;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 600px;
+        }
+
+        #facts ul {
+            margin-left: 20px;
+        }
+
+        /* Multimedia */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Rounded edges */
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Anchor Link */
+        .anchor {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .anchor a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .anchor a:hover {
+            color: #ffcc00;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+    <body>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="Layout.html">App</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+<!-- Header -->
+    <header class="header">
+        <h1 id="top">Pesto the Penguin</h1>
+        <p>Discover the life of the chonkiest king penguin chick!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#about">About Pesto</a></li>
+            <li><a class="nav-link" href="#facts">Fun Facts</a></li>
+            <li><a class="nav-link" href="#media">Photos & Videos</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Pesto</h2>
+            <p>Pesto is a king penguin chick born on January 30, 2024, at the Sea Life Melbourne Aquarium in Australia. He quickly became famous for his incredible size and charm.</p>
+        </section>
+
+        <!-- Fun Facts Section -->
+        <section id="facts" class="section">
+            <h2>Fun Facts About Pesto</h2>
+            <ol>
+                <li>Pesto’s Record-Breaking Size
+                    <ul>
+                        <li>He weighed 22.5 kilograms (50 pounds) at eight months old.</li>
+                        <li>His biological father, Blake, is the largest penguin at the aquarium.</li>
+                    </ul>
+                </li>
+                <li>His Foster Parents
+                    <ul>
+                        <li>Pesto was raised by foster parents, Tango and Hudson.</li>
+                        <li>The staff carefully monitored their bonding process.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Multimedia Section -->
+        <section id="media" class="section">
+            <h2>Photos & Videos</h2>
+            <!-- Image -->
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pesto_%28penguin%29_%28cropped%29.png/330px-Pesto_%28penguin%29_%28cropped%29.png" 
+                     alt="Pesto the Penguin">
+            </div>
+
+            <!-- Embedded YouTube Video -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kQq_w0hfkkU?si=FTDrQxgqU3zbGL6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+            <div class="header">
+                <h1>Explore Penguins: Interactive Graphic</h1>
+            </div>
+        
+            <div class='tableauPlaceholder' id='viz1733947631069' style='position: relative'><noscript><a href='#'><img alt='Size of Penguins at Palmer Archipelago, in Antartica ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;Penguins_dashboard&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Penguins_dashboard&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;Penguins_dashboard&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733947631069');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1620px';vizElement.style.height='1027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1620px';vizElement.style.height='1027px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <!-- Back to Top -->
+        <div class="anchor">
+            <a href="#top">Back to Top</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <h3>Contact</h3>
+        <p>Email: info@pestopenguin.com</p>
+        <p>Follow Pesto on <a href="https://x.com/PestoCTO" target="_blank">X</a>!</p>
+    </footer>
+    </body>
+    
+
+</html>
+
+
+
+
+
+
